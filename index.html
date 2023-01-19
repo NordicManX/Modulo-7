@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+    <link rel="stylesheet" href="./main.css"
+</head>
+<body>
+    <div class="container">
+        <form id="campos">
+            <h1>Valor Campos</h1>
+            <br>
+            <h3>Campo A</h3>
+            <input type="number" id="campo-a" required placeholder=" Digite o valor do campo A"/>
+            <!--onblur="checkNumber(this.value)" value="" (sobrepor após o type)-->
+            <br>
+            <h3>Campo B</h3>
+            <input type="number" id="campo-b" required placeholder=" Digite o valor do campo B"/>
+            <!--onblur="checkNumber(this.value)" value="" (sobrepor após o type)-->
+            <br>
+            <button id= "button" onclick= "funcao1()">Enviar</button>
+        </form>
+    </div>
+    
+   
+    <script src="./main.js"></script>
+       
+    
+    <!-- <script type="text/javascript">
+        function checkNumber(valor) {
+		  var regra = /^[0-9]+$/;
+		  if (valor.match(regra)) {
+			  alert("Numero: "+valor);
+		  }else{
+		     document.getElementById('v1').value='' // limpar os formularios
+	         document.getElementById('v2').value=''
+              alert("Permitido somente número inteiro positivo!");
+			  object.reload(forcedReload);
+          }
+        }
+    </script> -->
+
+    
+    
+</body>
+</html>
